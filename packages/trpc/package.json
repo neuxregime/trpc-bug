@@ -1,0 +1,16 @@
+{
+  "name": "@mono/trpc",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@trpc/client": "^9.27.2",
+    "@trpc/server": "^9.27.2",
+    "trpc-openapi": "^0.7.0",
+    "zod": "^3.19.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "tsconfig": "*",
+    "typescript": "^4.8.4"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "mono-test",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "apps/*"
+    ]
+  },
+  "scripts": {
+    "clean": "yarn cache clean && find . \\( -name \"node_modules\" -o -name \".expo\" -o -name \"dist\" -o -name \".next\" -o -name \".turbo\" \\)  -type d -prune -exec rm -rf '{}' +"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "prettier": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@3.2.3"
+}
